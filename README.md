@@ -1,1 +1,1 @@
-# javaScriptEx
+# cd nomepasta - acessar diretório

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lading page</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="menu">
@@ -21,16 +22,51 @@
 </header>
 <main>
     <section id="section01">
-        <h2>parte 01</h2>
+        <div class="section01-left-div">
+            <img src="img/HKRV4141.JPG" alt="img" class="img-section01">
+        </div>
+        <div class="section01-right-div">
+            <h2 class="l01">Henry</h2>
+            <p class="p01">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptate fugiat ad. Porro numquam similique minus quas officiis autem quaerat. Praesentium tempore voluptate blanditiis nisi accusamus. Excepturi ex beatae enim?</p>
+                
+        </div>
     </section>
     <section id="section02">
         <h2>parte 02</h2>
     </section>
     <section id="section03">
-        <h2>parte 03</h2>
+        
+        <div class="left-reference">
+            <h2>Referencias</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati deleniti, eligendi unde fuga officiis maxime dicta cumque at harum libero, eos possimus, exercitationem consequuntur inventore natus necessitatibus reiciendis similique?</p>
+            
+        </div>
     </section>
     <section id="section04">
-        <h2>parte 04</h2>
+        
+        <div class="left-contact">
+            <h2 class="heading-contact">Contato</h2>
+                <div>
+                    <label for="nome">nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div>
+                <label for="Mensagem">Mensagem</label>
+            <input type="text" id="mensagem">
+        </div>
+        <button onclick="ConferirMensagem()">ConferirMensagem</button>
+        
+        </div>
+        
+        <div class="right-contact">
+            <div>
+                <h2></h2>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button onclick="enviar()">📱zap</button>
+
+        </div>
     </section>
 </main>
 </body>

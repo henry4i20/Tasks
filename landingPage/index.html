@@ -35,12 +35,14 @@
         <h2>parte 02</h2>
     </section>
     <section id="section03">
-        
         <div class="left-reference">
-            <h2>Referencias</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati deleniti, eligendi unde fuga officiis maxime dicta cumque at harum libero, eos possimus, exercitationem consequuntur inventore natus necessitatibus reiciendis similique?</p>
-            
+            <h2 class="heading-reference">Referencias</h2>
+            <p class="p-reference">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure obcaecati deleniti, eligendi unde fuga officiis maxime dicta cumque at harum libero, eos possimus, exercitationem consequuntur inventore natus necessitatibus reiciendis similique?</p>
+            <button class="btn3" onclick="trocar()">Clique aqui</button>
         </div>
+
+        <div class="right-reference">
+            <img id="ref" src="img/ponto-de-interrogacao.png" width="400" height="300" alt=""></div>
     </section>
     <section id="section04">
         
@@ -54,7 +56,7 @@
                 <label for="Mensagem">Mensagem</label>
             <input type="text" id="mensagem">
         </div>
-        <button onclick="ConferirMensagem()">ConferirMensagem</button>
+        <button class="btn1" onclick="ConferirMensagem()">ConferirMensagem</button>
         
         </div>
         
@@ -64,7 +66,7 @@
                 <p>Nome: <span id="confNome"></span></p>
                 <p>Mensagem: <span id="confMsg"></span></p>
             </div>
-            <button onclick="enviar()">📱zap</button>
+            <button class="btn2" onclick="enviar()"> <img class="whatsapp" src="img/whatsapp.png" alt="" > whatsapp</button>
 
         </div>
     </section>

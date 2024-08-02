@@ -1,5 +1,14 @@
 var nomeGlobal
 var msgGlobal
+var imgatual="img/buzz.jpg";
+var imganterior="img/ponto-de-interrogacao.png";
+
+function trocar(){
+    document.getElementById("ref").src=imgatual;
+    let aux=imgatual;
+    imgatual=imganterior;
+    imganterior=aux;
+}
 function ConferirMensagem(){
     var nome=document.getElementById("nome").value;
     var mensagem=document.getElementById("mensagem").value;

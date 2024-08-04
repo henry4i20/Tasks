@@ -329,7 +329,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1vh;
+  gap: 2vh;
+  padding: 20px
 }
 
 @media (width <= 600px) {

@@ -8,7 +8,7 @@ git add .
 </br>git commit -m "a"
 </br>git push
 
-#comando config global pra não ter vitrolo 
+# comando config global pra não ter vitrolo 
 
 git config --global user.email "you@example.com"
 git config --global user.email "anaisa@gmail.com"
